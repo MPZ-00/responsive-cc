@@ -60,7 +60,6 @@ header img {
     object-position: center;
 }
 
-
 section {
     padding: 1rem;
     border: var(--text-color) 1px solid;
@@ -137,6 +136,10 @@ footer {
         display: inline-block;
         font-size: larger;
     }
+
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -160,4 +163,29 @@ img {
 
 * {
     box-sizing: border-box;
+}
+
+.fixed-height {
+    height: 10vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+.full-width {
+    width: 100%;
+}
+
+/* Hintergrundfarbe des Track (Hintergrund der Leiste) ausblenden */
+::-webkit-scrollbar-track {
+    background-color: transparent;
+    /* Hintergrundfarbe ausblenden */
+}
+
+::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-thumb:active {
+    background-color: var(--button-background-color);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--button-hover-background-color);
 }
