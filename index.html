@@ -7,15 +7,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cloud Computing</title>
     <link rel="stylesheet" href="style.css">
+    <script async>
+        document.addEventListener("DOMContentLoaded", function () {
+            let year = new Date().getFullYear()
+            document.getElementById("copyright").innerText += year + " Cloud Computing"
+        })
+    </script>
 </head>
 
 <body>
     <header>
+        <img src="img/computing.jpg" alt="Cloud Computing AI generated image">
         <h1>Cloud Computing</h1>
     </header>
+    <nav>
+        <ul>
+            <li><a>Discord</a></li>
+            <li><a>Cloud Computing</a></li>
+            <li><a>Docker</a></li>
+            <li><a>Kubernetes</a></li>
+        </ul>
+    </nav>
     <main>
-        <section>
-            <article>
+        <article>
+            <section>
                 <img src="cloud_computing_image_url" alt="Cloud Computing" />
                 <h2>Was ist Cloud Computing?</h2>
                 <p>Cloud Computing bezeichnet den Ansatz, IT-Infrastrukturen über ein Netzwerk zur Verfügung zu stellen,
@@ -29,9 +44,7 @@
                 <p>Es gibt verschiedene Modelle des Cloud Computings, darunter öffentliche, private und hybride Clouds,
                     sowie verschiedene Servicemodelle wie Infrastructure as a Service (IaaS), Platform as a Service
                     (PaaS) und Software as a Service (SaaS).</p>
-            </article>
-        </section>
-        <article>
+            </section>
             <section>
                 <h2>Wofür wird Cloud Computing verwendet?</h2>
                 <p>Ein Großteil der Menschen nutzt Cloud Computing bereits, ohne dass es ihnen bewusst ist. Wer einen
@@ -139,5 +152,9 @@
             </section>
         </article>
     </main>
+    <footer><a id="copyright" href="https://discord.com/invite/DXWuZUBW2C" target="_blank" rel="noreferrer">Copyright ©️
+            Martin Prätzlich 2023 - </a>
+    </footer>
 </body>
+
 </html>
