@@ -1,0 +1,24 @@
+:root {
+    --text-color: #e0fbfc;
+    --title-color: #98c1d9;
+    --background-color: #293241;
+    --button-background-color: #ee6c4d;
+    --button-text-color: #e0fbfc;
+    --button-hover-background-color: #98c1d9;
+
+    --t: #3d5a80;
+    --t: #98c1d9;
+    --t: #e0fbfc;
+    --t: #ee6c4d;
+    --t: #293241;
+}
+
+body {
+    color: var(--text-color);
+    background-color: var(--background-color);
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--title-color);
+}
